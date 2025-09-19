@@ -1,0 +1,58 @@
+# --- Archivos de entorno y configuración ---
+.env
+*.env
+*.ini
+*.toml
+
+# --- Entorno virtual ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Archivos de Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+.eggs/
+
+# --- Logs y reportes ---
+*.log
+*.out
+*.err
+coverage/
+htmlcov/
+.cache/
+
+# --- Herramientas de testing / lint ---
+.mypy_cache/
+.pytest_cache/
+.dmypy.json
+.pyre/
+
+# --- Base de datos / migraciones ---
+alembic.ini
+migrations/versions/*.pyc
+migrations/versions/*.py~
+*.db
+*.sqlite
+
+# --- Archivos de editor/IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Docker ---
+*.pid
+*.tar
+*.bak
+
+# --- Otros temporales ---
+*.tmp
+*.temp
+*.bak
